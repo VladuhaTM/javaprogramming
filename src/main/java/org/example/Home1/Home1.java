@@ -1,12 +1,7 @@
-package org.example;
+package org.example.Home1;
 
 public class Home1 {
-    public static void main(String[] args) {
-        for (int i = 1; i <= 500; i++) {
-            System.out.println(fizzbuzz(i));
-        }
-    }
-    public static String fizzbuzz(int i){
+    public static String FizzBuzz(int i) {
         if (i % 5 == 0 && i % 7 == 0) {
             return "fizzbuzz";
         } else if (i % 5 == 0) {
